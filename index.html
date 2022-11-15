@@ -36,7 +36,7 @@
             <input style="background: bisque;" type="text" id="user_id" name="user_id" value="100034"></label></li>
         <li>
             <label>custom_catalog_id:
-                <input style="background: bisque;" type="text" name="custom_catalog_id" id="custom_catalog_id">
+                <input style="background: bisque;" type="text" name="custom_course_id" id="custom_catalog_id">
             </label>
         </li>
         <li>
@@ -134,8 +134,8 @@
     window.onload = function () {
         $('#user_id').val(makeRandomUserId())
         $('#launchUrl').val('')
-        $('#key').val('')
-        $('#secret').val('')
+        $('#key').val('edx')
+        $('#secret').val('edx')
         $('#custom_catalog_id').val('')
         $('#custom_asset_id').val('')
         $('#lis_person_name_full').val(makeRandomFullName())
